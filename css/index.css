@@ -1,0 +1,109 @@
+* {
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+body h1 {
+    margin-top: 8rem;
+    font-family: sans-serif;
+    font-size: 90px;
+    margin-left: 1rem;
+    color:#ffc107;
+
+}
+
+body h2 {
+    font-family: sans-serif;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: white;
+}
+
+body p {
+    margin-top: 3rem;
+    font-family: sans-serif;
+    font-size: 14.5px;
+    margin-left: 1rem;
+    color: white;
+    font-weight: 400;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #212529;
+
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav h2 {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 350;
+    margin-top:1rem;
+    margin-left: .8rem;
+}
+nav img {
+    width: 1.5rem;
+    height:1.5rem;
+    margin-right: 1.8rem;
+    margin-top: .2rem;
+    padding: .3rem .6rem .3rem .6rem;
+
+    border: 1px solid lightslategray;
+
+
+
+}
+
+article {
+    background-color: #212529;
+    padding-top: 3rem;
+}
+
+article div#rotate {
+    transform: rotate(deg);
+}
+
+article div#rotate svg {
+   position: absolute;
+   bottom: 13rem;
+   fill: #212529;
+
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ 
+
+    margin-top: 3rem;
+
+    gap: 3rem;
+    
+}
+
+div  a {
+    font-family: sans-serif;
+
+    background-color: #303030;
+    border: 1px #303030;
+    color: white;
+    padding: .5rem;
+    border-radius: .7rem;
+    text-decoration:none ;
+
+}
+
+
+
+
+
+
+
